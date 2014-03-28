@@ -1,0 +1,25 @@
+/* CSS Document */
+.crop_preview {
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+    display: inline-block;
+    *display: inline;
+   *zoom: 1;
+    zoom:1;
+    vertical-align: top;
+}
+.crop_image {
+    width: 620px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+   *zoom: 1;
+    zoom:1;
+    vertical-align: top;
+    margin-top: 100px;
+}

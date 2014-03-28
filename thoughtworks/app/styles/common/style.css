@@ -1,0 +1,29 @@
+.container{
+	width: 1280px;
+	min-width: 780px;
+	max-width: 1260px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+}
+.header{
+	height: 86px;
+	position: relative;
+}
+.mainwrap{
+	border: 3px solid rgb(0, 0, 0);
+}
+.site-content{
+    width: 980px;
+    padding: 0 12px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 61px;
+}
+.site-aside{
+    float:right;
+    width:300px;
+    margin-left:10px;
+	border-left: 3px solid rgb(0, 0, 0);
+	padding-bottom: 40px;
+}

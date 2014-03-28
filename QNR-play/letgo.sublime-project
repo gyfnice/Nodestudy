@@ -1,0 +1,61 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Administrator\\Desktop\\src\\teacher"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "G:\\gyfworkplace\\QNR-play"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Administrator\\Desktop\\linkage"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "G:\\gyfworkplace\\Nodestudy\\QNR-play"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "G:\\gyfworkplace\\node-imager"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Administrator\\Desktop\\test"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "G:\\gyfworkplace\\node-imagemagick"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Administrator\\Desktop\\aheckmann-gm-1.14.2-2-gd6915c5\\aheckmann-gm-d6915c5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "G:\\gyfworkplace\\node-images"
+		}
+	],
+	"ternjs":
+	{
+		"include":
+		[
+			"**/*.js"
+		],
+		"libs":
+		[
+			"browser",
+			"jquery",
+			"nodejs"
+		],
+		"plugins":
+		{
+			"requirejs":
+			{
+				"baseURL": "./.."
+			}
+		}
+	}
+}

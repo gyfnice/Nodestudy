@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去哪儿玩--创建活动</title>
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/font-awesome.min@dev.css">
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/create/createActivity@dev.css"></head>
+<body>
+    <div class="site-nav theme-nav" role="navigation">
+        <div class="site-nav__body">
+            <div class="nav-logo">
+                <img src="http://sources.corp.qunar.com/QNR-play/logol.gif" alt="去哪儿网" title="qunar.com - 去哪儿网旗下网站"></div>
+            <div class="nav-title">
+                <a href="./index.html" style ="margin-right: 7px;">去哪儿玩欢迎您</a>
+                <a href="./index.html" class = "line">首页</a>
+            </div>
+            <div class="user-info">
+                <div class="user-name" id="userinfo"></div>
+            </div>
+        </div>
+    </div>
+    <div class="top-header">
+        <div class="hsearch" role = "search">
+            <form target="_top" name="search" action="action-list.html" id="J_TSearchForm">
+                <div class="tsearch-fields">
+                    <input type="text" name="searchword" name="searchword" maxlength="30"></div>
+                <button type="submit" class="tsearch-submit">搜索</button>
+            </form>
+        </div>
+    </div>
+    <div class="site-bar"></div>
+    <div class="site-wrap">
+        <div class="site-content bd">
+            <div class="main-create" id = "mainwrap">
+                <span class="create__head">创建活动</span>
+                <div class="create__state">
+                    <ul class="state__step">
+                        <li class="createstate__doing-nob"> <b></b>
+                            填写活动信息
+                        </li>
+                        <li class="createstate__undo"> <b></b>
+                            上传活动海报
+                        </li>
+                        <li class="createstate__undo-nob">
+                            <b></b>
+                            提交活动
+                        </li>
+                    </ul>
+                </div>
+                <div class="create__activity">
+                    <ul class="activity">
+                        <li>
+                            <div class="fl-pr10">
+                                <span>活动分类</span>
+                            </div>
+                            <div class="activity__classification">
+                                <div class="select typesel">
+                                    <div class="select_box">
+                                        <div class="selectbox_arrow">
+                                            <b></b>
+                                        </div>
+                                        <span class="selectbox_input"></span>
+                                    </div>
+                                </div>
+                                <ul class="select-option" id="plist">
+                                    <li>电影</li>
+                                    <li>音乐</li>
+                                    <li>运动</li>
+                                    <li>其他</li>
+                                </ul>
+                                <select name="" id="pselect"></select>
+                            </div>
+                            <div class="activity__classification">
+                                <div class="select subtype">
+                                    <div class="select_box">
+                                        <div class="selectbox_arrow">
+                                            <b></b>
+                                        </div>
+                                        <span class="selectbox_input"></span>
+                                    </div>
+                                </div>
+                                <ul class="select-option" id="sublist"></ul>
+                                <select name="" id="subselect"></select>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fl-pr10">
+                                <span>活动标题</span>
+                            </div>
+                            <div class="activity__title">
+                                <input type="text" class="titletext"/>
+                                <span class="forbidden hidden titlespace">不能输入空格</span>
+                                <span class="forbidden hidden titlenull">标题不能为空</span>
+                                <span class="forbidden hidden titlesizewarn">字数不能超过50字</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fl-pr10 actiondate">
+                                <span class="datespan">活动开始时间</span>
+                                <input type="text" id="mydate" readonly gldp-id="mydate" />
+                                <div gldp-el="mydate" id="nicedate" class="nicedate"></div>
+                            </div>
+                            <div class="fl-pr10">
+                                <input type="text" id="time-start"/>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fl-pr10 actiondate">
+                                <span class="datespan">活动结束时间</span>
+                                <input type="text" id="enddate" readonly gldp-id="enddate" />
+                                <div gldp-el="enddate" id="enddatetime"></div>
+                            </div>
+                            <div class="fl-pr10 endtime">
+                                <input type="text" id="time-end" disabled="disabled"/>
+                            </div>
+                            <span class="timewarn hidden">输入时间</span>
+                            <span class="datewarn hidden">日期错误</span>
+                        </li>
+                        <li>
+                            <div class="fl-pr10">
+                                <span>活动费用</span>
+                            </div>
+
+                            <div class="activity__fee">
+                                <div class="fee__option">
+                                    <input type="radio" name="fee" checked id="free"/>
+                                    <label for="free">免费</label>
+                                    <input type="radio" name="fee" id="feepr" value="0"/>
+                                    <label for="feepr">收费</label>
+                                    <div class="avgFee hidden">
+                                        <span>人均费用:</span>
+                                        <input type="text" class="input__fee"/>
+                                        <span>元</span>
+                                    </div>
+                                    <span class="pricewarn hidden forbidden">请输入价格</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fl-pr10">
+                                <span>活动地点</span>
+                            </div>
+                            <div class="activity__position">
+                                <input type="text" class="addresstext"/>
+                                <span class="forbidden hidden addressspace">不能输入空格</span>
+                                <span class="forbidden hidden addressnull">地址不能为空</span>
+                                <span class="forbidden hidden addresssizewarn">字数不能超过50字</span>
+                            </div>
+                        </li>
+                        <li class="activitylastli">
+                            <div class="fl-pr10">
+                                <span>活动详情</span>
+                            </div>
+                            <div class="activity__detail">
+                                <textarea title="活动详情" id="activitydetail"></textarea>
+                                <p class="controlnum hidden">123/200</p>
+                                <p class="textwarn hidden">活动详情不能为空</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="create__op">
+                    <div class="create__op-in">
+                        <div id="" class="activity__next">下一步</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-create" id = "createpic">
+                
+            </div>
+        </div>
+        <div id="mask" class="overlay"></div>
+        <div class="uploadpic">
+            <p class="actionposter">这是你创建的活动的海报</p>
+            <p class="posterdesc">随意拖拽或调整大图中的虚线区域，预览小图即为裁切后的效果。</p>
+            <span id="preview_box" class="crop_preview">
+                <img id="crop_preview" src="http://sources.corp.qunar.com/QNR-play/mainbghead.png" />
+            </span>
+            <div class="crop_image">
+                <div id="uploadPreview">
+                    <img id='img' name='picture' src="http://sources.corp.qunar.com/QNR-play/mainbghead.png" />
+                </div>
+            </div>
+            <div id="submit" class="submit">保存图片</div>
+            <div id="piccancel" class="piccancel">取消上传</div>
+        </div>
+        <input type="hidden" id="picx"/>
+        <input type="hidden" id="picy"/>
+        <input type="hidden" id="picw"/>
+        <input type="hidden" id="pich"/>
+        <input type="file" value="上传文件" id="picturefile" name="picture" class="hidden">
+        <div id="footer" class="footer">
+            <p class="footer__des">去哪儿网 版权所有 © 京ICP备05021087号</p>
+        </div>
+        <div class="fail hidden">请按提示进行操作</div>
+        <div class="success hidden">上传活动海报</div>
+
+    </div>
+    <script src="https://qsso.corp.qunar.com/lib/qsso-auth.js?t=<?=rand()?>"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/jex@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/XControl@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/create@dev.js"></script>
+</body>
+</html>

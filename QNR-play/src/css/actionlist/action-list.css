@@ -1,0 +1,165 @@
+@import url("../style.css");
+@import url("../aside.css");
+@import url('../plugin/datepicker/qdatepicker.css');
+.type-nav {
+    border-bottom:1px dashed #e6e6e6;
+    margin-top:27px;
+}
+.type-nav__item {
+    margin-bottom:8px;
+    padding-top:3px;
+}
+.type-nav__title {
+    float:left;
+    font-size:11px;
+    padding:5px 4px 5px 10px;
+}
+.type-nav__item ul {
+    margin-left:50px;
+}
+.type-nav__subsec{
+    background: #f5f5f5;
+    padding: 10px;
+    margin-left:43px;
+}
+.type-nav__item li {
+    float:left;
+    padding:3px 2px;
+}
+.type-nav__item li a {
+    padding:5px 9px 5px 10px;
+    margin-right:10px;
+    color:rgb(102,102,102);
+    text-decoration:none;
+    font-size:11px;
+}
+.type-nav__item .on a {
+    background-color:rgb(255,131,45);
+    cursor:pointer;
+    color:white;
+}
+.type-nav__item li a:hover {
+    background-color:rgb(255,131,45);
+    cursor:pointer;
+    color:white;
+}
+.action-title a {
+    font-size:14px;
+    color:rgb(153,153,153);
+    text-decoration:none;
+}
+.action-list {
+    margin-top:20px;
+}
+.action-list ul li {
+    margin-bottom:20px;
+}
+.action-img {
+    height:195px;
+    width:144px;
+    float:left;
+    background:rgb(250,250,250);
+    margin-right:14px;
+}
+.action-info {
+    
+}
+.action-name {
+    margin-bottom:10px;
+    margin-top:8px;
+}
+.action-name a {
+    text-decoration:none;
+    font-size:16px;
+    color:black;
+    font-weight:bold;
+}
+.action-img img {
+    width:123px;
+    height:173px;
+    margin:12px;
+    border:1px solid rgb(221,221,221);
+}
+
+.action-list p {
+    font-size:12px;
+    margin-bottom:10px;
+    color:rgb(153,153,153);
+    line-height:1.4em;
+}
+.action-list p span {
+    color:rgb(102,102,102);
+}
+.action-list address {
+    font-size:12px;
+    margin-bottom:10px;
+    color:rgb(153,153,153);
+    line-height:1.4em;
+}
+.action-list address span {
+    color:rgb(102,102,102);
+}
+.pl {
+    float:left;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.action-people {
+    display:inline;
+}
+.action-author a {
+    text-decoration:none;
+    color:rgb(1,87,163);
+}
+.action-author a:hover {
+    background-color:#37a;
+    color:white;
+}
+.action-desc {
+    display:block;
+    /* Fallback for non-webkit */
+  display:-webkit-box;
+    height:47px;
+    /* Fallback for non-webkit */
+  margin:0 auto;
+    font-size:12px;
+    line-height:1.2;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-break: break-all;
+}
+.searchkeyhint{
+    height: 100px;
+    line-height: 100px;
+    margin-left: 45px;
+}
+.hintkey{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.no-result{
+    width: 300px;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgb(250, 100, 0);
+}
+.action-rec{
+    width: 300px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(250, 100, 0);
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去哪儿玩--个人中心</title>
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/font-awesome.min@dev.css">
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/userinfo/userinfo@dev.css"></head>
+<body>
+    <div class="site-nav theme-nav" role="navigation">
+        <div class="site-nav__body">
+            <div class="nav-logo">
+                <img src="http://sources.corp.qunar.com/QNR-play/logol.gif" alt="去哪儿网" title="qunar.com - 去哪儿网旗下网站"></div>
+            <div class="nav-title">
+                <a href="./index.html" style ="margin-right: 7px;">去哪儿玩欢迎您</a>
+                <a href="./index.html" class = "line">首页</a>
+            </div>
+            <div class="user-info">
+                <div class="user-name" id="userinfo"></div>
+            </div>
+        </div>
+    </div>
+    <div class="top-header">
+        <div class="hsearch" role = "search">
+            <form target="_top" name="search" action="action-list.html" id="J_TSearchForm">
+                <div class="tsearch-fields">
+                    <input type="text" name="searchword" name="searchword" maxlength="30"></div>
+                <button type="submit" class="tsearch-submit">搜索</button>
+            </form>
+        </div>
+    </div>
+    <div class="site-bar"></div>
+    <div class="site-wrap">
+        <div class="site-content bd">
+            <div class="site-aside">
+                <div class="join-logo">
+                    <div class="btn-big-action"> <i class="fa fa-plus"></i>
+                        <a href="createaction.html" class="btn-text">我来发起活动</a>
+                    </div>
+                </div>
+                <div class="user-list">
+                    <div class="user-list__title clearfix">
+                        <h2 class="user-title">正在参加的活动</h2>
+                    </div>
+                    <ul class="users-info clearfix" id="proceedaction"></ul>
+                </div>
+            </div>
+            <div class="site-main bd" style="_margin-left:-20px">
+                <ul class="content-bar">
+                    <li class="content-bar__one"></li>
+                    <li class="content-bar__title">个人中心</li>
+                    <li class="content-bar__two"></li>
+                </ul>
+                <div class="info-list bd" id="baseinfo"></div>
+                <div class="info-action">
+                    <ul class="content-bar">
+                        <li class="content-bar__one"></li>
+                        <li class="content-bar__title">发布过的活动</li>
+                        <li class="content-bar__twos"></li>
+                    </ul>
+                    <div class="list-body clearfix">
+                        <ul class="action-type" id="pubaction"></ul>
+                        <div class="page-list">
+                            <ul id="pubpagelist"></ul>
+                        </div>
+                    </div>
+
+                    <ul class="content-bar">
+                        <li class="content-bar__one"></li>
+                        <li class="content-bar__title">参加过的活动</li>
+                        <li class="content-bar__twos"></li>
+                    </ul>
+                    <div class="list-body">
+                        <ul class="action-type" id="joinaction"></ul>
+                        <div class="page-list">
+                            <ul id="joinpagelist"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <p class="footer__des">去哪儿网 版权所有 © 京ICP备05021087号</p>
+        </div>
+    </div>
+        <div class="uploadpic-overlay">
+            <p class="actionposter">这是你创建的头像</p>
+            <p class="posterdesc">随意拖拽或调整大图中的虚线区域，预览小图即为裁切后的效果。</p>
+            <span id="preview_box" class="crop_preview">
+                <img id="crop_preview" src="http://sources.corp.qunar.com/QNR-play/mainbghead.png" />
+            </span>
+            <div class="crop_image">
+                <div id="uploadPreview">
+                    <img id='img' name='picture' src="http://sources.corp.qunar.com/QNR-play/mainbghead.png" />
+                </div>
+            </div>
+            <div id="submit" class="submit">保存图片</div>
+            <div id="piccancel" class="piccancel">取消上传</div>
+        </div>
+        <input type="hidden" id="picx"/>
+        <input type="hidden" id="picy"/>
+        <input type="hidden" id="picw"/>
+        <input type="hidden" id="pich"/>
+        <input type="file" value="上传文件" id="picturefile" name="picture" class="hidden">
+    <div class="select-type">
+            <div class="select-wrap">
+                <div class="select-head">
+                    <h2>选择感兴趣的分类（你关注的分类下有新活动时，我们会邮件通知你哦\(^o^)/~
+）<a href="#" class="select-close">╳</a></h2>
+                </div>
+                <div class="select-body">
+                    <ul class="select-item" id="selectItem"></ul>
+                </div>
+
+                <div class="tool-bar">
+                    <div class="btn-ok">确定</div>
+                </div>
+            </div>
+    </div>
+    <div id="mask" class="overlay">
+    </div>
+    <script src="https://qsso.corp.qunar.com/lib/qsso-auth.js?t=<?=rand()?>"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/jex@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/XControl@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/usercenter@dev.js"></script>
+</body>
+</html>

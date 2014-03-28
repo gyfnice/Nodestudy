@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+	<link rel='stylesheet' href='http://freshzz.corp.qunar.com/prd/css/style@dev.css' />
+</head>
+<body>
+	<%- include header %>
+	<% posts.forEach(function (post, index) { %>
+	<p>
+		<h2>
+			<a href="#">
+				<%= post.title %></a><a href="#" style="margin-left:20px;"><%= post._id %></a>
+		</h2>
+	</p>
+	<p class="info">
+		作者：
+		<a href="#">
+			<%= post.name %></a>
+		| 
+    日期：
+		<%= post.time.minute %></p>
+	<p>
+		<%- post.post %></p>
+	<% }) %>
+	<%- include footer %></body>
+</html>

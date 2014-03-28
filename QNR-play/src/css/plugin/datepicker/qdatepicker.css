@@ -1,0 +1,44 @@
+/*.qnc_calendar*/
+.qunar-dp{position:relative;top:12px;left:110px;z-index:1;border:1px solid #bababa;width:180px;height:23px;font:normal 12px/1.5 tahoma,Geneva,sans-serif;background-color:#fff;color:#555;}
+/*.qnc_calendar .c_input*/
+.qunar-dp .textbox{padding:3px 0 4px;border:0;width:100%;height:14px;font-family:tahoma;font-size:14px;background-color:#fff;z-index:2}
+/*.qnc_calendar .c_icon b  && URL */
+.qunar-dp .dp-info b{float:right;display:inline;margin-left:5px;width:16px;height:18px;background:url(http://qunarzz.com/js/qdatepicker/build/images/qnc_calendar.gif) 0 3px no-repeat;}
+/*.qnc_calendar .c_ext*/
+.qunar-dp .dp-info{position:absolute;width:50%;top:2px;right:5px;z-index:1;padding:0 0 0 8px;height:19px;font-size:14px;line-height:19px;background-color:#fff;cursor:pointer;}
+.qunar-dp .dp-text{float:right;}
+.qunar-dp .q-datepicker{position:absolute;top:22px;left:-1px;border:1px solid #ddd;background-color:#fff;}
+/*.qnc_calendar .c_pop*/
+.qunar-dp .q-datepicker .g{position:absolute;top:1px;left:-1px;z-index:2;border:1px solid #bababa;width:348px;background-color:#fff;overflow:hidden;}
+.qunar-dp .q-datepicker .g:after{clear:both;display:block;height:0;visibility:hidden;content:"\20";}
+/*.qnc_calendar .c_dpart*/
+.qunar-dp .q-datepicker .c{position:relative;z-index:1;float:left;display:inline;margin-left:-1px;border-left:1px solid #ccc;width:50%;height:158px}
+/*.qnc_calendar .c_dpart h5 */
+.qunar-dp .q-datepicker .h{padding:3px 0;height:18px;text-align:center;background-color:#b1e9ff;}
+/*.qnc_calendar .c_prev */
+.qunar-dp .q-datepicker .p{position:absolute;top:5px;left:5px;width:16px;height:16px;background:url(http://qunarzz.com/js/qdatepicker/build/images/qnc_calendar.gif)  3px -75px no-repeat;cursor:pointer;}
+/*.qnc_calendar .c_next */
+.qunar-dp .q-datepicker .n{position:absolute;top:5px;right:5px;width:16px;height:16px;background:url(http://qunarzz.com/js/qdatepicker/build/images/qnc_calendar.gif) 3px -100px no-repeat;cursor:pointer;}
+/*.qnc_calendar .c_dpart table*/
+.qunar-dp .q-datepicker table{border:1px solid #fff;border-collapse:collapse;width:100%;}
+/*.qnc_calendar .c_dpart th*/
+.qunar-dp .q-datepicker th{border-bottom:1px solid #ccc;width:14.286%;height:22px;text-align:center;}
+/*.qnc_calendar .c_dpart td*/
+.qunar-dp .q-datepicker td{height:18px;text-align:center;cursor:pointer;}
+/*.qnc_calendar .c_cr for w0 and w6*/ 
+.qunar-dp .q-datepicker .w0{color:#c60b02;}
+.qunar-dp .q-datepicker .w6{color:#c60b02;}
+.qunar-dp .q-datepicker .st-t{color:#00F;}
+.qunar-dp .q-datepicker .st-a{background-color:#fdab00;color:#fff;}
+.qunar-dp .q-datepicker .st-s{background-color:transparent;cursor:default;}
+.qunar-dp .q-datepicker .st-s:hover,.qunar-dp .q-datepicker .st-s-hover{background-color:#fff;cursor:default;}
+.qunar-dp .q-datepicker .st-h{background-color:#fdab00;color:#fff;}
+.qunar-dp .q-datepicker .st-d{color:#999;cursor:not-allowed;}
+/*add*/
+.qunar-dp .q-datepicker .st-d:hover,.qunar-dp .q-datepicker .st-d-hover{background-color:transparent;color:#999;cursor:not-allowed;}
+/*add back day*/
+.qunar-dp .q-datepicker .st-a-r{background-color:#6899ff;color:#fff;}
+.qunar-dp .q-datepicker .holi{color:#c60b02;}
+.qunar-dp .qunar-dp-toD td:hover,.qunar-dp .qunar-dp-toD td-hover{background-color:#6899ff;color:#fff;cursor:pointer;}
+.qunar-dp .qunar-dp-toD td.st-a-r{background-color:#6899ff;color:#fff;}
+.qunar-dp .errtext{color:red;}

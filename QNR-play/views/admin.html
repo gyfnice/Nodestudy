@@ -1,0 +1,88 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" session="false" %>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员首页</title>
+    <link href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .container{
+            margin-top: 150px;
+        }
+        .row{
+            margin-bottom: 30px;
+        }
+        .nice{
+             width:0;
+             height:0;
+             border-width:20px 10px 20px 0;
+             border-style:solid;
+             -webkit-transform: rotate(-60deg);
+            -webkit-transform-origin: top right;
+            border-color: transparent #000;
+            position: relative;
+            left: 45%;
+            top: 20%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <h3 class="text-center">
+                欢迎管理员${user.userName}使用去哪儿玩管理系统
+            </h3>  <a href="javascript:void(0)" class="btn btn-lg btn-default" type="button" onclick="exit(this)">退出后台</a>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <h3 class="text-left">
+                请管理员及时审核活动
+            </h3>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <a href="#" class="btn btn-primary btn-lg" type="button" onclick="examine(this)">审核管理</a>
+        </div>
+        <div class="col-md-4 column">
+            <a href="#" class="btn btn-info btn-lg" type="button" onclick="classify(this)">活动类别管理</a>
+        </div>
+        <div class="col-md-4 column">
+            <c:if test="${user.role.code==2}">
+                <a href="#" class="btn btn-default btn-lg" type="button" onclick="goSuperAdmin(this)">超级管理员查看日记</a>
+            </c:if>
+        </div>
+    </div>
+</div>
+<div class="nice">
+    
+</div>
+</body>
+
+
+<script type="text/javascript">
+    function examine(obj) {
+        obj.href = "/activity/examine/list.do";
+        return;
+    }
+
+    function classify(obj) {
+        obj.href = "/subClassify/showAllClassify.do";
+        return;
+    }
+
+    function goSuperAdmin(obj) {
+        obj.href = "/adminLog/showAllAdminInfo.do";
+        return;
+    }
+
+    function exit(obj) {
+        obj.href = "/html/index.html";
+        return;
+    }
+
+</script>
+</html>

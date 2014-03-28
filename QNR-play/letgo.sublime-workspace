@@ -1,0 +1,676 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hei",
+				"height"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"set",
+				"settings	{}"
+			],
+			[
+				"cook",
+				"cookieSecret	(?)"
+			],
+			[
+				"get",
+				"get(i)"
+			],
+			[
+				"arr",
+				"arrHtml"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "var count=0;\nvar flag=0;\nvar infoApp=(function(){\n			var forbiddenSpace=function(){       \n				$('#stu_name,#phone,#email,#QQ_info').keydown(function(e){\n					if(e.keyCode==32){\n						return false;\n					}\n				});\n			};\n			var enterKeyEvent=function(){         \n				$('#stu_name').keydown(function(e){\n\n					if(e.keyCode==13){\n						 $(\"#phone\")[0].focus();  \n					}\n				});\n				$('#phone').keydown(function(e){\n					if(e.keyCode==13){\n						document.getElementById('QQ_info').focus();\n					}\n				});\n				$('#QQ_info').keydown(function(e){\n					if(e.keyCode==13){\n						 document.getElementById('email').focus();\n					}\n				});\n				$('#direction').keydown(function(e){\n					if(e.keyCode==13){\n						 document.getElementById('job').focus();\n					}\n				});\n				$('#job').keydown(function(e){\n					if(e.keyCode==13){\n						 document.getElementById('honor').focus();\n					}\n				});\n			};\n			var blurJudge = function() {\n				$(\"#stu_name\").blur(function(){\n					debugger;\n					$(\"#stu_name\").parent().find(\".msg_error\").remove();\n					$(\"#stu_name\").parent().find(\".msg_ok\").remove();\n					$(\"#stu_name\").parent().find(\".msg_alert\").remove();\n					var rename=$(\"#stu_name\").val().match(/[^\\u4E00-\\u9FA5]/g);\n					if(rename==null){\n						if(this.value==\"\"){\n				    	s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#stu_name\").parent().append(s);\n				    	}else{\n				    	s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#stu_name\").parent().append(s);\n				    	count++;\n				    	}\n					}else{\n						flag=1;\n						s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#stu_name\").parent().append(s);\n					}\n				});\n				$(\"#phone\").blur(function() {\n				    debugger;\n				    $(\"#phone\").parent().find(\".msg_error\").remove();\n				    $(\"#phone\").parent().find(\".msg_ok\").remove();\n				    $(\"#phone\").parent().find(\".msg_alert\").remove();\n				    var tel=this.value.match(/[A-Z|a-z|\\W]+/g);\n				    if(tel==null){\n				    	if(this.value.match(/^\\d{11}$/g)){\n				    	s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#phone\").parent().append(s);\n				    	count++;\n				    	}else{\n				    	if(this.value==\"\"){\n				    	s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#phone\").parent().append(s);\n				    	}else{\n				    		flag=1;\n				    	s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#phone\").parent().append(s);\n				    	}\n				    	}\n				    }else{\n				    	flag=1;\n				    	s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#phone\").parent().append(s);\n				    }\n				});\n				$(\"#QQ_info\").blur(function(){\n					debugger;\n				    $(\"#QQ_info\").parent().find(\".msg_error\").remove();\n				    $(\"#QQ_info\").parent().find(\".msg_ok\").remove();\n				    $(\"#QQ_info\").parent().find(\".msg_alert\").remove();\n				    var tel=this.value.match(/[A-Z|a-z|\\W]+/g);\n				    if(tel==null){\n				    	if(this.value.match(/^\\d+$/g)){\n				    	s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#QQ_info\").parent().append(s);\n				    	count++;\n				    	}else{\n				    	if(this.value==\"\"){\n				    	s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#QQ_info\").parent().append(s);\n				    	}else{\n				    		flag=1;\n				    	s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#QQ_info\").parent().append(s);\n				    	}\n				    	}\n				    }else{\n				    	flag=1;\n				    	s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#QQ_info\").parent().append(s);\n				    }\n				});\n				$(\"#email\").blur(function(){\n					$(\"#email\").parent().find(\".msg_error\").remove();\n				    $(\"#email\").parent().find(\".msg_ok\").remove();\n				    $(\"#email\").parent().find(\".msg_alert\").remove();\n					var R_email=$(\"#email\").val().match(/.+@.+\\.[a-zA-Z]{2,4}$/g);\n					if(R_email==null){\n						if(this.value==\"\"){\n						s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#email\").parent().append(s);\n						}else{\n							flag=1;\n						s=\"<div class='msg_error'><p>填写错误.</p></div>\"\n				    	$(\"#email\").parent().append(s);\n						}\n					}else{\n						s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#email\").parent().append(s);\n				    	count++;\n					}\n				});\n				$(\"#direction\").blur(function(){\n					$(\"#direction\").parent().find(\".msg_error\").remove();\n				    $(\"#direction\").parent().find(\".msg_ok\").remove();\n				    $(\"#direction\").parent().find(\".msg_alert\").remove();\n				    if(this.value==\"\"){\n				    	s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#direction\").parent().append(s);\n				    }else{\n				    	s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#direction\").parent().append(s)\n				    	count++;;\n				    }\n				});\n			}\n			var onFormSubmit=function(){\n				$('input[type=button]').click(function(e){\n					$('#tabzilla').trigger(\"click\");\n					var t_error=$(\"body\").find(\".msg_error\").length;\n					var warn =$(\"body\").find(\".msg_alert\").length;\n					var stu_name=$('#stu_name').val(),\n					phone=$('#phone').val(),\n					QQ_info=$('#QQ_info').val(),\n					email=$('#email').val(),\n					magor=$('#magor').val(),\n					comments=$('#comments').val(),\n					item =$('input[name=radio-group]:checked').val();\n					stu_name=$.trim(stu_name);\n					phone=$.trim(phone);\n					email=$.trim(email);\n					QQ_info=$.trim(QQ_info);\n					  if(stu_name==''){\n					  	document.getElementById('stu_name').focus();\n					  }\n					  if(phone==''){\n					  	document.getElementById('phone').focus();\n					  }\n					  if(QQ_info=='')\n					  {\n					  	document.getElementById('QQ_info').focus();\n					  }\n					  if(email=='')\n					  {\n					  	document.getElementById('email').focus();\n					  }\n					  if(warn!=0||t_error!=0){\n					  	art.dialog({\n						lock:true,\n					    content: '请填写相关选项！',\n					    ok: function () {\n					    return true;\n					    }\n					});\n					  	return false;\n					  }\n					  var $params = \"name=\" + $(\"#stu_name\").val() + \"&major=\"\n						+ $(\"#magor\").val() + \"&direction=\"\n						+ $(\"#direction\").val() + \"&email=\" + $(\"#email\").val()\n						+ \"&phone=\" + $(\"#phone\").val() + \"&qq=\"\n						+ $(\"#QQ_info\").val()+\"&sex=\"+$('input[name=radio-group]:checked').val()\n						+\"&reward=\"\n						+$(\"#honor\").val()\n						+\"&reason=\"\n						+$(\"#comments\").val()\n						+\"&role=\"\n						+$(\"#job\").val();\n						debugger;\n					  $.ajax( {\n					type : 'POST',\n					url: '192.168.1.112:8080/Surveys/Answers',\n					async : false,\n					cache : false,\n					dataType : 'json',\n					data : $params,\n					success : function(data, status) {\n					    Tabzilla.toggle();\n					    $(\"html,body\").animate({scrollTop:0},\"slow\");\n						art.dialog({\n					    title: 'DreamOnline',\n					    content: '信息填写成功,谢谢你的参与,请留意邮箱，等待笔试通知！（有专门的网上笔试平台）',\n					    icon: 'succeed',\n					    follow: document.getElementById('btn2'),\n					    ok: function(){\n					       return true;\n					    }\n					});				\n					},\n					error : function() {\n					  alert(\"服务器连接错误\");\n					}\n				});\n			    e.preventDefault();\n				return false;\n				});\n			};\n			\n			var bindEvents=function(){\n				forbiddenSpace();\n				enterKeyEvent();\n				onFormSubmit();\n				blurJudge();\n			};\n			var init=function(){\n				bindEvents();\n			};\n			return {\n				init:init\n			};\n		})();\n		infoApp.init();\n		function setLimitTip(li, value) {\n				debugger;\n				li.text(value.length + '/' + 1000);\n				if (value.length > 1000) {\n					li.find(\".lengthWarning\").show();\n				} else {\n					li.find(\".lengthWarning\").hide();\n				}\n			};\n			var areaId = document.getElementById('comments');\n			areaId.onkeyup = function() {\n				debugger;\n				var value = this.value,\n					li = $(this.parentNode).find(\".lengthLimit\")\n					id = li.attr('id');\n				setLimitTip(li, value);\n				$(\"#comments\").parent().find(\".msg_error\").remove();\n				    $(\"#comments\").parent().find(\".msg_ok\").remove();\n				    $(\"#comments\").parent().find(\".msg_alert\").remove();\n				    if(this.value==\"\"){\n				    	flag=0;\n				    	s=\"<div class='msg_alert'><p>信息栏不能为空.</p></div>\"\n				    	$(\"#comments\").parent().append(s);\n				    }else{\n				    	s=\"<div class='msg_ok'><p>填写正确.</p></div>\"\n				    	$(\"#comments\").parent().append(s);\n				    	flag=1;\n				    }\n			};\n			var hoId = document.getElementById('honor');\n			hoId.onkeyup = function() {\n				debugger;\n				var value = this.value,\n					li = $(this.parentNode).find(\".lengthLimit\")\n					id = li.attr('id');\n				setLimitTip(li, value);\n			};",
+			"file": "/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/judge.js",
+			"file_size": 8818,
+			"file_write_time": 130126241448319071,
+			"settings":
+			{
+				"buffer_size": 8255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/QNR-play/src/js/create.js",
+			"settings":
+			{
+				"buffer_size": 18788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/node-imagemagick/app.js",
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/node-imagemagick/test-crop.js",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/QNR-play/createaction.html",
+			"settings":
+			{
+				"buffer_size": 10171,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fekit.config",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/QNR-play/admin.html",
+			"settings":
+			{
+				"buffer_size": 2472,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 209.0,
+		"history":
+		[
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/src/js/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$0/nice.js",
+		"/G/gyfworkplace/node-imagemagick/test.js",
+		"/G/gyfworkplace/node-images/package.json",
+		"/G/gyfworkplace/node-images/demo/uploadServer.js",
+		"/C/Users/Administrator/Desktop/src/teacher/iofeng.js",
+		"/C/Users/Administrator/Desktop/src/teacher/ye.html",
+		"/C/Users/Administrator/Desktop/src/teacher/index.html",
+		"/G/gyfworkplace/QNR-play/src/js/index.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$1/inputjs.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/studentPage.js",
+		"/G/gyfworkplace/node-images/install.js",
+		"/G/gyfworkplace/node-imagemagick/app.js",
+		"/G/gyfworkplace/QNR-play/src/js/create.js",
+		"/G/gyfworkplace/node-imagemagick/package.json",
+		"/G/gyfworkplace/node-imagemagick/test-crop.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/app.js",
+		"/C/Users/Administrator/Desktop/aheckmann-gm-1.14.2-2-gd6915c5/aheckmann-gm-d6915c5/package.json",
+		"/C/Users/Administrator/Desktop/aheckmann-gm-1.14.2-2-gd6915c5/aheckmann-gm-d6915c5/examples/crop.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/views/index.html",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/settings.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/routes/index.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/app.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/public/js/upload.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/routes/index.js",
+		"/G/gyfworkplace/QNR-play/createaction.html",
+		"/C/Users/Administrator/Desktop/test/nice.html",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/123.html",
+		"/G/gyfworkplace/QNR-play/src/css/style.css",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/letgo.sublime-project",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$10/style.css",
+		"/C/Users/Administrator/Desktop/test/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$8/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$11/nice.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$6/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$7/nice.js",
+		"/C/Users/Administrator/Desktop/test/nicess.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$12/lib.js",
+		"/C/Users/Administrator/Desktop/test/lib.js",
+		"/C/Users/Administrator/Desktop/test/style.css",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/models/user.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/123.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$1/nice.js",
+		"/C/Users/Administrator/Desktop/test/console.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/header.ejs",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/post.ejs",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/index.ejs",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/nice.ejs",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/index.html",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/test/test.js",
+		"/G/gyfworkplace/node-imager/test/imager.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$0/nice.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/citydata.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/lib.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/nice.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/style.css",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/citydata.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/models/post.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/models/db.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/app.bat",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/mongodb.bat",
+		"/G/fekit/lib/config.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/fekit.config",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/views/nice.html",
+		"/C/Users/Administrator/Desktop/src/teacher/wer.css",
+		"/C/Users/Administrator/Desktop/src/teacher/lib.js",
+		"/C/Users/Administrator/Desktop/src/teacher/nice.js",
+		"/C/Users/Administrator/Desktop/src/teacher/style.css",
+		"/C/Users/Administrator/Desktop/src/teacher/best.js",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judged/judged.cc",
+		"/C/Users/Administrator/Desktop/out/local/proxy.ini",
+		"/C/Users/Administrator/Desktop/out/local/index.html",
+		"/C/Users/Administrator/Desktop/out/local/index.js",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judge_client/judge_client.cc",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judge_client/makefile",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judge_client/okcalls.h",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judge_client/ncalls.h",
+		"/C/Users/Administrator/Desktop/judge/install/hustoj-read-only/core/judged/makefile",
+		"/C/Users/Administrator/Desktop/install/hustoj-read-only/web/admin/problem_judge.php",
+		"/C/Users/Administrator/Desktop/src/hustoj_judge_client.cpp",
+		"/C/Users/Administrator/Desktop/ArrayTest/stdafx.h",
+		"/C/Users/Administrator/Desktop/ArrayTest/stdafx.cpp",
+		"/C/Users/Administrator/Desktop/src/judge_runjava.h",
+		"/C/Users/Administrator/Desktop/src/hustoj_judged.cpp",
+		"/C/Users/Administrator/Desktop/src/LinkMysql.cpp",
+		"/C/Users/Administrator/Desktop/src/LinkMysql.h",
+		"/C/Users/Administrator/Desktop/ArrayTest/targetver.h",
+		"/C/Users/Administrator/Desktop/ArrayTest/VczhArray.h",
+		"/C/Users/Administrator/Desktop/ArrayTest/ArrayTest.cpp",
+		"/C/Users/Administrator/Desktop/新建文件夹/nweb23.c",
+		"/C/Users/Administrator/Desktop/新建文件夹/client.c",
+		"/C/Users/Administrator/Desktop/src/okcalls.h",
+		"/C/Users/Administrator/Desktop/src/hustoj.cpp",
+		"/C/Users/Administrator/Desktop/src/main.cpp",
+		"/C/Users/Administrator/Desktop/src/judge_define.h",
+		"/C/Users/Administrator/Desktop/src/queue.h",
+		"/C/Users/Administrator/Desktop/src/thread.cpp",
+		"/C/Users/Administrator/Desktop/src/sabox.h",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$0/tiny.c",
+		"/C/Users/Administrator/Desktop/nweb.c",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/Users/Administrator/Desktop/client.c",
+		"/C/Users/Administrator/Desktop/dist/404.html",
+		"/C/Users/Administrator/Desktop/AngularJSDemos/AngularJSDemos/js/website.js",
+		"/C/Users/Administrator/Desktop/dist/styles/nice.css",
+		"/C/Users/Administrator/Desktop/dist/styles/84e4643b.main.css",
+		"/C/Users/Administrator/Desktop/AngularJSDemos/AngularJSDemos/index.html"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"checkNotLogin",
+			"flagpic",
+			"piclay",
+			"pic",
+			"/2",
+			"gm",
+			"error",
+			"ajaxFileUpload",
+			"ajaxfileupload",
+			"ajax",
+			"session",
+			"overflow",
+			"QNR",
+			"judgeBorderandDrag",
+			"output",
+			"outPut",
+			"callback",
+			"CompareDeffArray",
+			"RealInput",
+			"__dirname",
+			"routes",
+			"db",
+			"settings",
+			"get",
+			"post",
+			"docs",
+			"get",
+			"post",
+			"'",
+			"obj",
+			"index",
+			"photo",
+			"content",
+			"<.+>",
+			"card",
+			"div",
+			"span",
+			"photo: \"Koala.jpg\",",
+			"(<\\w+>).+<\\/\\1>",
+			"(<\\w+>).+<\\/\\1>\\",
+			"(<\\w+>).+<\\/\\1>",
+			"<(\\w+)>.+<\\/\\1>",
+			"(<\\w+>).+<\\/\\1>",
+			"(<\\w+>.+<)",
+			"<.+>",
+			"read_cmd_output",
+			";\n",
+			".in",
+			".",
+			".in",
+			"web",
+			"logger",
+			"hit",
+			"listenfd",
+			"serv_addr",
+			"cli_addr",
+			"web",
+			"sockaddr_in"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/judge.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3444,
+								3444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2604.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/G/gyfworkplace/QNR-play/src/js/create.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6811,
+								6811
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6649.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/G/gyfworkplace/node-imagemagick/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/G/gyfworkplace/node-imagemagick/test-crop.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/G/gyfworkplace/QNR-play/createaction.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "fekit.config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/G/gyfworkplace/QNR-play/admin.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								819,
+								819
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "letgo.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

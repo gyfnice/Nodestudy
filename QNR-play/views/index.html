@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去哪儿玩--首页</title>
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/font-awesome.min@dev.css">
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/index/index@dev.css">
+</head>
+<body>
+    <div class="site-nav theme-nav" role="navigation">
+        <div class="site-nav__body">
+            <div class="nav-logo">
+                <img src="http://sources.corp.qunar.com/QNR-play/logol.gif" alt="去哪儿网" title="qunar.com - 去哪儿网旗下网站"></div>
+            <div class="nav-title">
+                <a href="./index.html" style ="margin-right: 7px;">去哪儿玩欢迎您</a>
+                <a href="./index.html" class = "line">首页</a>
+            </div>
+            <div class="user-info">
+                <div class="user-name" id="userinfo">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-header">
+        <div class="hsearch" role = "search">
+            <form name="search" action="action-list.html" method="get">
+                <div class="tsearch-fields">
+                    <input type="text" name="searchword" maxlength="30"></div>
+                <button type="submit" class="tsearch-submit">搜索</button>
+            </form>
+        </div>
+    </div>
+    <div class="site-bar"></div>
+    <div class="site-wrap">
+        <div class="site-content bd">
+            <div class="site-aside">
+                <div class="join-logo">
+                    <div class="btn-big-action"> <i class="fa fa-plus"></i>
+                        <a href="createaction.html" class="btn-text">我来发起活动</a>
+                    </div>
+                </div>
+                <div class="user-list">
+                    <div class="user-list__title clearfix">
+                        <h2 class="user-title">活动达人</h2>
+                    </div>
+                    <ul class="users-info clearfix" id = "rankuser"></ul>
+                </div>
+            </div>
+            <div class="site-main bd">
+                <ul class="content-bar">
+                    <li class="content-bar__one"></li>
+                    <li class="content-bar__title">热门活动</li>
+                    <li class="content-bar__two"></li>
+                    <li class="btn-prev"></li>
+                    <li class="btn-next"></li>
+                    <li class="content-bar__three"></li>
+                    <div class="ui-control">
+                        <a href="#" class = "ui-control__item1 active">1</a>
+                        <a href="#" class = "ui-control__item2">2</a>
+                        <a href="#" class = "ui-control__item3">3</a>
+                        <a href="#" class = "ui-control__item4">4</a>
+                    </div>
+                </ul>
+                <div class="ui-slide-screen mod">
+                    <ul class="ui-slide-gallery" id ="hotpic"></ul>
+                </div>
+                <div class="board-list mod">
+                    <ul id="board-type" class="clearfix"></ul>
+                </div>
+                <div class="action-type-list mod" id="actiontype"></div>
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <p class="footer__des">去哪儿网 版权所有 © 京ICP备05021087号</p>
+        </div>
+    </div>
+    <div class="select-type">
+            <div class="select-wrap">
+                <div class="select-head">
+                    <h2>选择感兴趣的小组（你关注的分类下有新活动时，我们会邮件通知你哦\(^o^)/~
+）<a href="#" class="select-close">╳</a></h2>
+                </div>
+                <div class="select-body">
+                    <ul class="select-item" id="selectItem"></ul>
+                </div>
+
+                <div class="tool-bar">
+                    <div class="btn-ok">确定</div>
+                    <a href="#" class="btn-cancel">跳过</a>
+                </div>
+            </div>
+    </div>
+    <div id="mask" class="overlay">
+    </div>
+    <script src="https://qsso.corp.qunar.com/lib/qsso-auth.js?t=<?=rand()?>"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/jex@dev123.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/XControl@dev123.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/index@dev123.js"></script>
+</body>
+</html>

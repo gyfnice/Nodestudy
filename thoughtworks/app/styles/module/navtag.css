@@ -1,0 +1,27 @@
+.nav-tag{
+	position: absolute;
+	top: 48px;
+	right: 0;
+	bottom:0;
+	height: 36px;
+}
+.nav-tag li{
+	border: 3px solid rgb(0, 0, 0);
+	border-bottom: none;
+	float: left;
+	border-radius: 15px 15px 0 0;
+	-webkit-border-radius:15px 15px 0 0;
+	-moz-border-radius:15px 15px 0 0;
+	margin-left: 10px;
+	padding: 5px 10px;
+	line-height: 28px;
+}
+.nav-tag .tag-active{
+	height: 38px;
+	line-height: 38px;
+	position: relative;
+	top: -10px;
+	background: rgb(96, 96, 96);
+	color: rgb(255, 255, 255);
+
+}

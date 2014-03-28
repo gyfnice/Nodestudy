@@ -1,0 +1,131 @@
+.overlay {
+  filter:alpha(Opacity=50);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity:0.5;
+  -khtml-opacity:0.5;
+  height:2600px;
+  width:100%;
+  _width:100%;
+  _height:2600px;
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  background:#000;
+  opacity:0.618;
+  display: none;
+}
+.select-type {
+  display: none;
+  position:absolute;
+  width:750px;
+  background:#000;
+  left:50%;
+  top:240px;
+  z-index:111;
+  margin-left:-375px;
+}
+.select-wrap {
+  width:740px;
+  height:100%;
+  margin:5px;
+  background:white;
+  opacity:1.1;
+  z-index:11111;
+}
+.select-head {
+  height:34px;
+  line-height:34px;
+  padding-left:20px;
+  background:rgb(238,238,238);
+  font-size:14px;
+}
+.select-body {
+  margin-top:20px;
+}
+.select-item {
+  padding:0 5px;
+  font-size:0px;
+}
+.select-item li {
+  width:140px;
+  _width:120px;
+  border-right:1px dashed black;
+  display:inline-block;
+  vertical-align:top;
+  *display:inline;
+  *zoom:1;
+  zoom:1;
+}
+.select-close {
+  float:right;
+  margin-right:5px;
+  text-decoration:none;
+  color:rgb(158,158,158);
+}
+.select-item .select-item5 {
+  border-right:0px;
+}
+.select-item h4 {
+  text-align:center;
+  font-size:15px;
+  font-weight:bold;
+}
+.select-item__items li {
+  padding:10px;
+  font-size:12px;
+  border:0;
+}
+.select-item1 section {
+  font-size:12px;
+}
+.select-item section {
+  padding:0 12px;
+}
+.select-item div ul li {
+  border-right:0px dashed red !important;
+}
+.select-item div {
+  padding:0 12px !important;
+}
+.select-item label {
+  padding:0 0 0 40px !important;
+  line-height:25px;
+  _padding:0 0 0 10px !important;
+  *padding:0 0 0 10px !important;
+}
+.tool-bar {
+  margin-top:50px;
+  left:50%;
+  width:160px;
+  position:relative;
+  margin-left:-80px;
+  padding-bottom:32px;
+}
+.btn-ok {
+  width:100px;
+  height:30px;
+  background:rgb(255,131,45);
+  cursor:pointer;
+  color:white;
+  text-align:center;
+  line-height:30px;
+  display:inline-block;
+  vertical-align:top;
+  *display:inline;
+  *zoom:1;
+  zoom:1;
+}
+.btn-cancel {
+  display:inline-block;
+  vertical-align:bottom;
+  vertical-align:center;
+  *display:inline;
+  *zoom:1;
+  zoom:1;
+  color:rgb(158,158,158);
+  text-decoration:none;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}

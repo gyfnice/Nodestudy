@@ -1,0 +1,52 @@
+.clear{
+	overflow: hidden;
+	zoom:1;
+}
+.bd{
+	overflow: hidden;
+	_overflow:visible;
+	zoom: 1;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.inlineblock{
+	display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align: middle;
+}
+.th-title{
+	font-size: 60px;
+	height: 80px;
+}
+.nav{
+	background: red;
+	height: 20px;
+	width:20px;
+}
+.head-bar{
+	background: rgb(98,98,98);
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 3px solid black;
+}
+.head-title{
+	line-height: 60px;
+	color: rgb(255, 255, 255);
+	height: 60px;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	margin-top: -3px;
+}
+.hide{
+	display: none;
+}
+.hint{
+	color: red;
+}

@@ -1,0 +1,17 @@
+.user-info{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.user-info a{
+	color: black;
+	font-weight: bold;
+}
+.user-name{
+	margin-right: 30px;
+}
+
+.arrow{
+	margin-top: -5px;
+	margin-right: 2px;
+}

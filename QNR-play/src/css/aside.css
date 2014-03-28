@@ -1,0 +1,81 @@
+
+.join-logo {
+    background:url(http://sources.corp.qunar.com/QNR-play/buttonbg.png);
+    height:312px;
+    width:286px;
+    margin-top:5px;
+    position:relative;
+}
+.btn-big-action {
+    height:46px;
+    width:220px;
+    background:rgb(255,130,0);
+    line-height:46px;
+    position:absolute;
+    bottom:0;
+    margin-bottom:15px;
+    margin-left:31px;
+}
+.fa-plus {
+    margin-left:21px;
+    color:white;
+}
+.btn-text {
+    margin-left:10px;
+    color:white;
+    font-size:20px;
+    position:relative;
+    top:1.3px;
+    _top:12px;
+    text-decoration:none;
+}
+.btn-big-action a:hover {
+    cursor:pointer;
+}
+.user-list {
+    margin-top:35px;
+}
+.user-list__title {
+    height:30px;
+    line-height:30px;
+    border-bottom:1px dashed rgb(221,221,221);
+}
+.user-title {
+    float:left;
+    font-weight:bold;
+    font-size:16px;
+}
+.user-many {
+    float:right;
+    text-decoration:none;
+    font-size:11px;
+    color:rgb(102,102,102);
+}
+.rankuser-name a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    line-height: 1.5;
+}
+.rankuser-name a:hover{
+    color: white;
+    background-color: #37a;
+}
+.user-img {
+    width:63px;
+    height:63px;
+    float:left;
+    margin-right:14px;
+    border:1px solid rgb(221,221,221);
+}
+.user-img img {
+    display:block;
+    width: 62px;
+    height: 62px;
+}
+.single-info {
+    
+}
+.users-info li {
+    padding:15px 5px;
+}

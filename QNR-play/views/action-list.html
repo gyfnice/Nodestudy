@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去哪儿玩--搜索结果</title>
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/font-awesome.min@dev.css">
+    <link rel="stylesheet" href="http://freshzz.corp.qunar.com/QNR-play/prd/css/actionlist/action-list@dev.css">
+</head>
+<body>
+    <div class="site-nav theme-nav" role="navigation">
+        <div class="site-nav__body">
+            <div class="nav-logo">
+                <img src="http://sources.corp.qunar.com/QNR-play/logol.gif" alt="去哪儿网" title="qunar.com - 去哪儿网旗下网站"></div>
+            <div class="nav-title">
+                <a href="./index.html" style ="margin-right: 7px;">去哪儿玩欢迎您</a>
+                <a href="./index.html" class = "line">首页</a>
+            </div>
+            <div class="user-info">
+                <div class="user-name" id="userinfo">
+                    <a href="#">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-header">
+        <div class="hsearch" role = "search">
+            <form name="search" action="action-list.html" method="get">
+                <div class="tsearch-fields">
+                    <input type="text" name="searchword" maxlength="30"></div>
+                <button type="submit" class="tsearch-submit">搜索</button>
+            </form>
+        </div>
+    </div>
+    <div class="site-bar"></div>
+    <div class="site-wrap">
+        <div class="site-content bd">
+            <div class="site-aside">
+                <div class="join-logo">
+                    <div class="btn-big-action"> <i class="fa fa-plus"></i>
+                        <a href="createaction.html" class="btn-text">我来发起活动</a>
+                    </div>
+                </div>
+                <div class="user-list">
+                    <div class="user-list__title clearfix">
+                        <h2 class="user-title">活动达人</h2>
+                    </div>
+                    <ul class="users-info clearfix" id="rankuser"></ul>
+                </div>
+            </div>
+            <div class="site-main bd">
+                <div class="type-nav" id="nav-list"></div>
+                <input type="text" id="mydate" readonly gldp-id="mydate" class="hidden"/>
+                <div gldp-el="mydate" id="nicedate"></div>
+                <div class="action-list">
+                    <ul id="actionlist"></ul>
+                </div>
+                <div class="page-list">
+                    <ul id="pagelist">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <p class="footer__des">去哪儿网 版权所有 © 京ICP备05021087号</p>
+        </div>
+    </div>
+    <script src="https://qsso.corp.qunar.com/lib/qsso-auth.js?t=<?=rand()?>"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/jex@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/common/XControl@dev.js"></script>
+    <script src="http://freshzz.corp.qunar.com/QNR-play/prd/js/list@dev.js"></script>
+</body>
+</html>

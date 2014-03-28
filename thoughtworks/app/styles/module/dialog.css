@@ -1,0 +1,44 @@
+.th-dialog{
+	position: absolute;
+	width: 580px;
+	left: 20px;
+	top: 70px;
+	display: none;
+}
+.mwt_border{
+	width:560px;
+	padding:20px 10px;
+	background:#fff;
+	position:relative;
+	border: solid 3px rgb(85,61,0);
+	border-radius: 20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+}
+.mwt_border .arrow_t_int{
+	width: 0px;
+	height: 0px;
+	border-width: 25px;
+	border-style: solid;
+	border-color: transparent transparent rgb(85, 61, 0) transparent;
+	position: absolute;
+	top: -51px;
+	left: 40px;
+}
+
+.mwt_border .arrow_t_out{
+	width: 0px;
+	height: 0px;
+	border-width: 25px;
+	border-style: solid;
+	border-color: transparent transparent rgb(255, 255, 255) transparent;
+	position: absolute;
+	top: -47px;
+	left: 40px;
+}
+
+.add-tag{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

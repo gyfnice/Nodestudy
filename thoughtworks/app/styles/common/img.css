@@ -1,0 +1,22 @@
+.arrow, .denny, .close{
+	background: url(../../images/sprites.png) no-repeat;
+}
+
+.arrow{
+	background-position: -60px -10px ;
+	width: 16px;
+	height: 12px;
+}
+
+.denny{
+	background-position: -7px -8px ;
+	width: 17px;
+	height: 17px;
+}
+
+.close{
+	background-position: -35px -7px ;
+	width: 18px;
+	height: 17px;
+}
+

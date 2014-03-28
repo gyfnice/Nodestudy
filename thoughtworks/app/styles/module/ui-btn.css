@@ -1,0 +1,14 @@
+.btn-default{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
+	padding: 2px 25px;
+	border-radius: 60px/50px;
+	-webkit-border-radius:60px/50px;
+	-moz-border-radius:60px/50px;
+	margin-right: 10px;
+	background: rgb(153,153,153);
+}
+.btn-active{
+	background: rgb(221,221,221);
+}
