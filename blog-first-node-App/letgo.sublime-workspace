@@ -1,0 +1,1089 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Con",
+				"constructor"
+			],
+			[
+				"new",
+				"newdata	(?)"
+			],
+			[
+				"thi",
+				"_this"
+			],
+			[
+				"add",
+				"addResourceHandler"
+			],
+			[
+				"dia",
+				"dialogElem	(?)"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tas",
+				"tsh-ra	text-shadow: ${1:h} ${2:v} ${3:blur} rgba(${4:0}, ${5:0}, ${6:0}, .${7:5});"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"my",
+				"myname	(str)"
+			],
+			[
+				"pro",
+				"prototype	{}"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"set",
+				"settings	{}"
+			],
+			[
+				"cook",
+				"cookieSecret	(?)"
+			],
+			[
+				"get",
+				"get(i)"
+			],
+			[
+				"arr",
+				"arrHtml"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 1527,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/Desktop/jsproj1.html",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/360data/重要数据/我的文档/Tencent Files/751143842/FileRecv/3.html",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/Desktop/example/src/scripts/modules/passengerInfo.js",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/common/lib.js",
+			"settings":
+			{
+				"buffer_size": 2098,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/module/dialog.js",
+			"settings":
+			{
+				"buffer_size": 2010,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/360data/重要数据/我的文档/Tencent Files/751143842/FileRecv/jsproj1.html",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<!--[if lt IE 7]>\n<html class=\"no-js lt-ie9 lt-ie8 lt-ie7\">\n    <![endif]-->\n    <!--[if IE 7]>\n    <html class=\"no-js lt-ie9 lt-ie8\">\n        <![endif]-->\n        <!--[if IE 8]>\n        <html class=\"no-js lt-ie9\">\n            <![endif]-->\n            <!--[if gt IE 8]>\n            <!-->\n            <html class=\"no-js\">\n                <!--<![endif]-->\n<head>\n                <meta charset=\"utf-8\">\n                <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n                <title></title>\n                <meta name=\"description\" content=\"\">\n                <meta name=\"viewport\" content=\"width=device-width\">\n                <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n                <link rel=\"stylesheet\" href=\"styles/0a7c85ff.main.css\">\n                <script src=\"scripts/vendor/d7100892.modernizr.js\"></script>\n</head>\n<body>\n                <div class=\"container\">\n                    <div class=\"header\">\n                        <h1 class=\"th-title\">Cruise</h1>\n                        <div class=\"user-info\">\n                            <span class=\"sign\">Signed in as</span>\n                            <a href=\"#\" class=\"user-name\" title=\"Member\">Member</a>\n                            <span class=\"arrow inlineblock\"></span>\n                            <a href=\"#\" title=\"Sign out\">Sign out</a>\n                        </div>\n                        <ul class=\"nav-tag\">\n                            <li>DASHOBORAD</li>\n                            <li>MY CRUISE</li>\n                            <li class=\"tag-active\">AGENTS</li>\n                            <li>HELP</li>\n                        </ul>\n                    </div>\n                    <div class=\"mainwrap clear\">\n                        <div class=\"head-bar\">\n                            <span class=\"head-title\">Agents</span>\n                            <a href=\"#\" class=\"btn-default\">All</a>\n                            <a href=\"#\" class=\"btn-default btn-active\">Physical</a>\n                            <a href=\"#\" class=\"btn-default\">Virtual</a>\n                        </div>\n                        <div class=\"site-aside\">\n                            <div class=\"inner-content\">\n                                <table border=\"0\">\n                                    <caption>Summary</caption>\n                                    <tr>\n                                        <td>builing</td>\n                                        <td>2</td>\n                                    </tr>\n                                    <tr>\n                                        <td>idle</td>\n                                        <td>2</td>\n                                    </tr>\n                                </table>\n                                <table border=\"0\">\n                                    <caption>history</caption>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                    <tr>\n                                        <td>bjstdmngbgr02/Acceptance_test</td>\n                                    </tr>\n                                </table>\n                            </div>\n                        </div>\n                        <div class=\"site-main bd\">\n                            <ul class=\"th-items\" id=\"items\">\n                                <li class=\"item item-pass bd\">\n\n                                    <div class=\"item__face\">\n                                        <a href=\"#\"></a>\n                                    </div>\n                                    <div class=\"item__content bd\" node-type=\"content\">\n                                        <div class=\"item__head clear\">\n                                            <span class=\"item__title left\">bjsdmngbgr-2.thoughtworks.com</span>\n                                            <ul class=\"item__dir left clear\">\n                                                <li>idle</li>\n                                                <li>192.168.1.2</li>\n                                                <li>/var/lib/cruise-agent</li>\n                                            </ul>\n                                        </div>\n                                        <div class=\"item__hint clear\"> <b class=\"left\">+</b>\n                                            <a href=\"#\" class=\"item__addlink\">Specify Resources</a>\n                                            <div class=\"infobar\">\n                                                <div class=\"denny inlineblock\"></div>\n                                                <a href=\"#\">Deny</a>\n                                            </div>\n                                            <span class=\"left\">Resources:</span>\n                                            <ul class=\"item__list bd clear\">\n                                                <li>\n                                                    <p class=\"left\">core-duo</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">ubuntu</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">firefox3</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">core-duo</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                            </ul>\n                                        </div>\n                                    </div>\n                                </li>\n                                <li class=\"item item-deny bd\">\n\n                                    <div class=\"item__face\">\n                                        <a href=\"#\"></a>\n                                    </div>\n                                    <div class=\"item__content bd\" node-type=\"content\">\n                                        <div class=\"item__head clear\">\n                                            <span class=\"item__title left\">bjsdmngbgr-2.thoughtworks.com</span>\n                                            <ul class=\"item__dir left clear\">\n                                                <li>idle</li>\n                                                <li>192.168.1.2</li>\n                                                <li>/var/lib/cruise-agent</li>\n                                            </ul>\n                                        </div>\n                                        <div class=\"item__hint clear\"> <b class=\"left\">+</b>\n                                            <a href=\"#\" class=\"item__addlink\">Specify Resources</a>\n                                            <div class=\"infobar\">\n                                                <div class=\"denny inlineblock\"></div>\n                                                <a href=\"#\">Deny</a>\n                                            </div>\n                                            <span class=\"left\">Resources:</span>\n                                            <ul class=\"item__list bd clear\">\n                                                <li>\n                                                    <p class=\"left\">core-duo</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                            </ul>\n                                        </div>\n\n                                    </div>\n\n                                </li>\n                                <li class=\"item item-deny bd\">\n                                    <div class=\"item__face\">\n                                        <a href=\"#\"></a>\n                                    </div>\n                                    <div class=\"item__content bd\" node-type=\"content\">\n                                        <div class=\"item__head clear\">\n                                            <span class=\"item__title left\">bjsdmngbgr-2.thoughtworks.com</span>\n                                            <ul class=\"item__dir left clear\">\n                                                <li>idle</li>\n                                                <li>192.168.1.2</li>\n                                                <li>/var/lib/cruise-agent</li>\n                                            </ul>\n                                        </div>\n                                        <div class=\"item__hint clear\">\n                                            <b class=\"left\">+</b>\n                                            <a href=\"#\" class=\"item__addlink\">Specify Resources</a>\n                                            <div class=\"infobar\">\n                                                <div class=\"denny inlineblock\"></div>\n                                                <a href=\"#\">Deny</a>\n                                            </div>\n                                            <span class=\"left\">Resources:</span>\n                                            <ul class=\"item__list bd clear\">\n                                                <li>\n                                                    <p class=\"left\">ubuntu</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">firefox3</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">core-duo</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                            </ul>\n                                        </div>\n\n                                    </div>\n                                </li>\n                                <li class=\"item item-pass bd\">\n                                    <div class=\"item__face\">\n                                        <a href=\"#\"></a>\n                                    </div>\n                                    <div class=\"item__content bd\" node-type=\"content\">\n                                        <div class=\"item__head clear\">\n                                            <span class=\"item__title left\">bjsdmngbgr-2.thoughtworks.com</span>\n                                            <ul class=\"item__dir left clear\">\n                                                <li>idle</li>\n                                                <li>192.168.1.2</li>\n                                                <li>/var/lib/cruise-agent</li>\n                                            </ul>\n                                        </div>\n                                        <div class=\"item__hint clear\">\n                                            <b class=\"left\">+</b>\n                                            <a href=\"#\" class=\"item__addlink\">Specify Resources</a>\n                                            <div class=\"infobar\">\n                                                <div class=\"denny inlineblock\"></div>\n                                                <a href=\"#\">Deny</a>\n                                            </div>\n                                            <span class=\"left\">Resources:</span>\n                                            <ul class=\"item__list bd clear\">\n                                                <li>\n                                                    <p class=\"left\">firefox3</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                                <li>\n                                                    <p class=\"left\">core-duo</p>\n                                                    <div class=\"close inlineblock\"></div>\n                                                </li>\n                                            </ul>\n                                        </div>\n\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                    <div class=\"th-dialog\" id=\"dialog\">\n                        <div class=\"mwt_border\">\n                            <span class=\"arrow_t_int\"></span>\n                            <span class=\"arrow_t_out\"></span>\n                            <p>(separate multiple resources name with commas)</p>\n                            <p>\n                                <input type=\"text\" class=\"add-tag\"></p>\n                            <a href=\"\" id=\"addbtn\" class=\"btn-default btn-active\">Add resources</a>\n                            <a href=\"\" id=\"close\" class=\"btn-default btn-active\">Close</a>\n                            <b class=\"hint hide\">请添加合适的标签</b>\n                        </div>\n                    </div>\n                </div>\n                <!--[if lt IE 7]>\n                <p class=\"chromeframe\">\n                    You are using an <strong>outdated</strong>\n                    browser. Please\n                    <a href=\"http://browsehappy.com/\">upgrade your browser</a>\n                    or\n                    <a href=\"http://www.google.com/chromeframe/?redirect=true\">activate Google Chrome Frame</a>\n                    to improve your experience.\n                </p>\n                <![endif]-->\n\n                <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n                <script>\n            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];\n            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n            g.src='//www.google-analytics.com/ga.js';\n            s.parentNode.insertBefore(g,s)}(document,'script'));\n        </script>\n\n                <script data-main=\"scripts/6cab47e1.main\" src=\"bower_components/requirejs/require.js\"></script>\n</body>\n            </html>",
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/index.html",
+			"file_size": 16194,
+			"file_write_time": 130403078305444696,
+			"settings":
+			{
+				"buffer_size": 16178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/Desktop/54173BLOG 原生javascript效果：选项卡切换/index.html",
+			"settings":
+			{
+				"buffer_size": 2391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/Desktop/example/src/scripts/pageLogic.js",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10511,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n  \"name\": \"requirejs\",\n  \"version\": \"2.1.11\",\n  \"homepage\": \"http://requirejs.org\",\n  \"authors\": [\n    \"jrburke.com\"\n  ],\n  \"description\": \"A file and module loader for JavaScript\",\n  \"main\": \"require.js\",\n  \"keywords\": [\n    \"AMD\"\n  ],\n  \"license\": \"new BSD, and MIT\"\n}\n",
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/bower_components/requirejs/bower.json",
+			"file_size": 273,
+			"file_write_time": 130399395231782419,
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "!function(){define(\"common/lib\",[],function(){function a(a){return a.stopPropagation||(a.stopPropagation=function(){this.cancelBubble=!0},a.preventDefault=function(){this.returnValue=!1}),a.stop||(a.stop=function(){this.stopPropagation(),this.preventDefault()}),a.srcElement&&!a.target&&(a.target=a.srcElement),!a.toElement&&!a.fromElement||a.relatedTarget||(a.relatedTarget=a.toElement||a.fromElement),void 0!=a.clientX&&void 0==a.pageX&&(a.pageX=a.clientX+document.body.scrollLeft,a.pageY=a.clientY+document.body.scrollTop),\"keypress\"==a.type&&(a.character=String.fromCharCode(0===a.charCode||void 0==a.charCode?a.keyCode:a.charCode)),a}function b(a,b,c){\"function\"==typeof a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent(\"on\"+b,c)}function c(c,d,e){function f(b){e(a(b||window.event))}b(c,d,f)}return Nice={addEventListener:c,$:function(a){return document.getElementById(a)},extend:function(a,b){var c=function(){};c.prototype=b.prototype,a.prototype=new c,a.prototype.constructor=a,a.superclass=b.prototype,b.prototype.constructor==Object.prototype.constructor&&(b.prototype.constructor=b)},removenode:function(a){var b;a&&\"BODY\"!=a.tagName&&(b=b||document.createElement(\"DIV\"),b.appendChild(a),b.innerHTML=\"\")}}}),define(\"common/fun\",[],function(){var a={forEach:function(a,b){for(var c=0;c<a.length;c++)b(a[c])},map:function(a,b){var c=[];return this.forEach(a,function(a){c.push(b(a))}),c},filter:function(a,b){var c=[];return this.forEach(a,function(a){b(a)&&c.push(a)}),c}};return a}),define(\"common/Eventemmit\",[\"./fun\"],function(a){\"use strict\";var b=function(){this.events={}};return b.fn=b.prototype,b.fn.on=function(a,b){this.events[a]||(this.events[a]=[]),this.events[a].push(b)},b.fn.emit=function(b){var c=Array.prototype.slice.call(arguments,1);this.events[b]&&a.forEach(this.events[b],function(a){a.apply(this,c)})},b}),define(\"module/dialog\",[\"../common/lib\",\"../common/Eventemmit\"],function(a,b){function c(){c.superclass.constructor.apply(this,arguments),this.left=90}return a.extend(c,b),c.fn=c.prototype,c.fn.init=function(a){this.elem=a.dialogElem,this.close=a.close,this.addbtn=a.addbtn,this.inputelem=this.elem.getElementsByTagName(\"input\")[0],this.hint=this.elem.getElementsByTagName(\"b\")[0],this.bindEvent()},c.fn.bindEvent=function(){this.closeDialogHandler(),this.addResourceHandler()},c.fn.show=function(a,b,c){this.move(a,b),this.curentElem=c,this.elem.style.display=\"block\",this.focus()},c.fn.focus=function(){this.inputelem.focus(),this.hint.style.display=\"none\"},c.fn.move=function(a,b){if(0===a)var c=b+20;else var c=a+50;this.elem.style.top=c+\"px\",this.elem.style.left=this.left+\"px\"},c.fn.hide=function(){this.elem.style.display=\"none\",this.inputelem.value=\"\"},c.fn.addResourceHandler=function(){var b=this;a.addEventListener(this.addbtn,\"click\",function(a){a.preventDefault();var c=b.inputelem.value.split(\",\");\"\"!==b.inputelem.value&&(b.generateHtml(c),b.hide()),b.hint.style.display=\"inline\"})},c.fn.generateHtml=function(a){for(var b=0,c=a.length;c>b;b++){var d='<li>    <p class=\"left\">'+a[b]+'</p>    <div class=\"close inlineblock\"></div></li>';this.curentElem.innerHTML+=d}},c.fn.closeDialogHandler=function(){var b=this;a.addEventListener(this.close,\"click\",function(a){a.preventDefault(),b.hide()})},new c}),require.config({paths:{jquery:\"../bower_components/jquery/jquery\"}}),require([\"common/lib\",\"module/dialog\"],function(a,b){\"use strict\";function c(){d()}function d(){e(),f()}function e(){a.addEventListener(h,\"click\",function(a){if(a.preventDefault(),\"item__addlink\"===a.target.className){var c=a.target.offsetTop,d=a.target.parentElement.getElementsByTagName(\"ul\")[0];b.emit(\"show\",c,a.pageY,d)}})}function f(){a.addEventListener(h,\"click\",function(a){a.preventDefault(),\"close\"===a.target.className.slice(0,5)&&g(a)})}function g(b){a.removenode(b.target.parentElement)}var h=a.$(\"items\"),i=a.$(\"dialog\"),j=a.$(\"close\"),k=a.$(\"addbtn\");b.init({dialogElem:i,close:j,addbtn:k}),b.on(\"show\",function(a,c,d){b.show(a,c,d)}),c()}),define(\"main\",function(){})}();",
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/scripts/6cab47e1.main.js",
+			"file_size": 4024,
+			"file_write_time": 130403078302804545,
+			"settings":
+			{
+				"buffer_size": 4024,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".inner-content{margin-left:25px;margin-top:15px;margin-right:10px}.inner-content table{width:100%}caption{font-weight:700;font-size:20px;padding:10px 0;border-bottom:2px solid #d0d0d0;width:100%}table td,tr{width:50%;padding:7px 0;text-align:left}.th-dialog{position:absolute;width:580px;left:20px;top:70px;display:none}.mwt_border{width:560px;padding:20px 10px;background:#fff;position:relative;border:solid 3px #553d00;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px}.mwt_border .arrow_t_int{width:0;height:0;border-width:25px;border-style:solid;border-color:transparent transparent #553d00;position:absolute;top:-51px;left:40px}.mwt_border .arrow_t_out{width:0;height:0;border-width:25px;border-style:solid;border-color:transparent transparent #fff;position:absolute;top:-47px;left:40px}.add-tag{width:100%;margin-top:10px;margin-bottom:10px}.th-items{margin:20px;margin-right:0}.item{width:915px;border:1px solid #000;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;margin-bottom:30px}.item-pass{background:#cce8b5}.item-deny{background:#fffcb9}.item__face{float:left;width:50px;height:50px;margin-top:10px;margin-bottom:10px;margin-left:25px;margin-right:20px;border-radius:30px;-webkit-border-radius:30px;-moz-border-radius:30px;background:#929292}.item__content{margin:10px 0;line-height:25px}.item__title{margin-right:20px}.item__dir li{float:left;border-left:1px solid #aaa396;padding:0 10px}.item__addlink{padding:0 5px;border-right:1px solid #aaa396;color:#000;margin-right:10px;float:left}.item__list li{display:inline-block;*display:inline;*zoom:1;vertical-align:top;padding:0 10px}.item__hint{margin-top:2px}.item__list .close{margin-left:5px;margin-top:-1px;*margin-top:3px}.close:hover{cursor:pointer}.infobar{float:right}.infobar a{color:#000;margin-right:20px}.infobar .denny{margin-top:-2px}.nav-tag{position:absolute;top:48px;right:0;bottom:0;height:36px}.nav-tag li{border:3px solid #000;border-bottom:0;float:left;border-radius:15px 15px 0 0;-webkit-border-radius:15px 15px 0 0;-moz-border-radius:15px 15px 0 0;margin-left:10px;padding:5px 10px;line-height:28px}.nav-tag .tag-active{height:38px;line-height:38px;position:relative;top:-10px;background:#606060;color:#fff}.btn-default{text-decoration:none;color:#000;border:1px solid #000;padding:2px 25px;border-radius:60px/50px;-webkit-border-radius:60px/50px;-moz-border-radius:60px/50px;margin-right:10px;background:#999}.btn-active{background:#ddd}.user-info{position:absolute;right:0;top:0}.user-info a{color:#000;font-weight:700}.user-name{margin-right:30px}.arrow{margin-top:-5px;margin-right:2px}.clear{overflow:hidden;zoom:1}.bd{overflow:hidden;_overflow:visible;zoom:1}.left{float:left}.right{float:right}.inlineblock{display:inline-block;*display:inline;*zoom:1;vertical-align:middle}.th-title{font-size:60px;height:80px}.nav{background:red;height:20px;width:20px}.head-bar{background:#626262;height:60px;line-height:60px;border-bottom:3px solid #000}.head-title{line-height:60px;color:#fff;height:60px;font-size:30px;margin-left:20px;margin-right:20px;float:left;margin-top:-3px}.hide{display:none}.hint{color:red}.arrow,.denny,.close{background:url(../images/469fd36e.sprites.png) no-repeat}.arrow{background-position:-60px -10px;width:16px;height:12px}.denny{background-position:-7px -8px;width:17px;height:17px}.close{background-position:-35px -7px;width:18px;height:17px}html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;font-family:cursive;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}.container{width:1280px;min-width:780px;max-width:1260px;margin:0 auto;margin-top:20px;position:relative}.header{height:86px;position:relative}.mainwrap{border:3px solid #000}.site-content{width:980px;padding:0 12px;margin:0 auto;background:#fff;margin-bottom:61px}.site-aside{float:right;width:300px;margin-left:10px;border-left:3px solid #000;padding-bottom:40px}",
+			"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/0a7c85ff.main.css",
+			"file_size": 4477,
+			"file_write_time": 130403079014605258,
+			"settings":
+			{
+				"buffer_size": 4477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/gyfworkplace/Nodestudy/QNR-play/letgo.sublime-project",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 209.0,
+		"history":
+		[
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/letgo.sublime-project",
+		"/G/gyfworkplace/Nodestudy/QNR-play/letgo.sublime-project",
+		"/G/gyfworkplace/Nodestudy/QNR-play/letgo.sublime-workspace",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/main.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/test/spec/test.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/test/initTest.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/index.html",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/Gruntfile.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/module/dialog.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/index.html",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/0a7c85ff.main.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/common/Eventemmit.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/common/fun.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/common/lib.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/main.css/main.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/package.json",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/test/index.html",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/test/index.html",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/test/spec/initTest.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/common/common.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/test/spec/test.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/app.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/hello.coffee",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/lib.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/main.js",
+		"/C/Users/Administrator/Desktop/example/src/scripts/modules/priceInfo.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/dsssssssssssssssssss.sublime-snippet",
+		"/G/gyfworkplace/javascript/linters/SublimeLinter/SublimeLinter.sublime-settings",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/bower_components/jquery/jquery.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/dialog.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/item.css",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$1/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$0/lib.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/common/style.css",
+		"/F/360data/重要数据/我的文档/Tencent Files/751143842/FileRecv/3.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$0/nice.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/ui-btn.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/userinfo.css",
+		"/G/gyfworkplace/QNR-play/index.html",
+		"/G/gyfworkplace/QNR-play/src/css/style.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/navtag.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/aside.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/common/reset.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/common/img.css",
+		"/G/gyfworkplace/QNR-play/src/js/common/Page.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/hell.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/rrr.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/.tmp/scripts/hello.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$4/sohu.css",
+		"/C/Users/Administrator/Desktop/css作业—搜狐/sohu.html",
+		"/C/Users/Administrator/Desktop/css作业—搜狐/sohu.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/.jshintrc",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/Person.js",
+		"/G/gyfworkplace/QNR-play/src/js/action.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/dfefbe23.main.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/scripts/23e0d861.main.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/styles/module/btn.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/c0157aeb.main.css",
+		"/G/gyfworkplace/Nodestudy/QNR-play/test/test.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/404.html",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/85a01f98.main.css",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/dist/scripts/b0aa23eb.main.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/admin.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/historypage.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/jquery-1.8.0.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/inputjs.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/jquery-latest.min.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/judge.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/proxyHeader/loadhead.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/placeholder.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/studentPage.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/tabzilla.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$3/test.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/src/js/common/Page.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/src/js/usercenter.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/src/js/create.js",
+		"/G/gyfworkplace/QNR-play/prd/js/action@f2a173a73a568ee2a0a6a8c120cfa4a2.js",
+		"/G/gyfworkplace/Nodestudy/thoughtworks/bower.json",
+		"/G/gyfworkplace/Nodestudy/QNR-play/src/js/action.js",
+		"/G/gyfworkplace/QNR-play/src/js/create.js",
+		"/G/gyfworkplace/node-imagemagick/app.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/app.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/index.js",
+		"/C/Users/Administrator/Desktop/test/nice.html",
+		"/G/gyfworkplace/Nodestudy/QNR-play/routes/index.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/app.bat",
+		"/G/gyfworkplace/Nodestudy/QNR-play/routes/user.js",
+		"/G/gyfworkplace/Nodestudy/QNR-play/test/mocha.opts",
+		"/G/gyfworkplace/node-imagemagick/test-crop.js",
+		"/G/gyfworkplace/QNR-play/createaction.html",
+		"/G/gyfworkplace/QNR-play/admin.html",
+		"/G/gyfworkplace/Nodestudy/QNR-play/test/mocha.txt",
+		"/G/gyfworkplace/QNR-play/qnrplay.sublime-project",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/package.json",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/fekit.config",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/src/js/nice.js",
+		"/G/gyfworkplace/node-imagemagick/test.js",
+		"/G/gyfworkplace/node-images/package.json",
+		"/G/gyfworkplace/node-images/demo/uploadServer.js",
+		"/C/Users/Administrator/Desktop/src/teacher/iofeng.js",
+		"/C/Users/Administrator/Desktop/src/teacher/ye.html",
+		"/C/Users/Administrator/Desktop/src/teacher/index.html",
+		"/G/gyfworkplace/QNR-play/src/js/index.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$1/inputjs.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$2/studentPage.js",
+		"/G/gyfworkplace/node-images/install.js",
+		"/G/gyfworkplace/node-imagemagick/package.json",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/app.js",
+		"/C/Users/Administrator/Desktop/aheckmann-gm-1.14.2-2-gd6915c5/aheckmann-gm-d6915c5/package.json",
+		"/C/Users/Administrator/Desktop/aheckmann-gm-1.14.2-2-gd6915c5/aheckmann-gm-d6915c5/examples/crop.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/views/index.html",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/settings.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/routes/index.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/app.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/public/js/upload.js",
+		"/G/gyfworkplace/Nodejs-Image-Upload-and-crop/routes/index.js",
+		"/G/gyfworkplace/Nodestudy/blog-first-node-App/123.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$10/style.css",
+		"/C/Users/Administrator/Desktop/test/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$8/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$11/nice.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$6/nice.js",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$7/nice.js",
+		"/C/Users/Administrator/Desktop/test/nicess.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/360zip$Temp/360$12/lib.js",
+		"/C/Users/Administrator/Desktop/test/lib.js",
+		"/C/Users/Administrator/Desktop/test/style.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"G:\\gyfworkplace\\Nodestudy\\thoughtworks"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blog",
+			"blog-first-node-App",
+			"\">",
+			"passengerUI",
+			"Nice",
+			"url",
+			"top",
+			"new",
+			"data",
+			"return",
+			"SimpleEE",
+			"connect",
+			"test",
+			"mocha",
+			"connect",
+			"Nice",
+			"display",
+			"this.hint",
+			"}",
+			"inputElem",
+			"elem",
+			"closeDialogHandler",
+			"){",
+			"Dialog",
+			"Sizzle",
+			".find",
+			"find",
+			"prototype",
+			"Dialog",
+			"prototype",
+			"DataCenter",
+			"nice",
+			"array",
+			"Nice",
+			"item__addlink left",
+			"id = \"additem\"",
+			"n",
+			"addHandler",
+			"item__addlink",
+			"addHandler",
+			"normaliseEvent",
+			"rgba(0, 0, 0, 0)",
+			"transparent",
+			"rgba(0, 0, 0, 0)",
+			"transparent",
+			";",
+			"transparent",
+			"\n	",
+			"3",
+			"b",
+			"idle",
+			"strong",
+			"span",
+			"p",
+			"15",
+			"15px 15px 0 0;",
+			"hei",
+			"span",
+			"h3",
+			"nav",
+			"div",
+			"left",
+			"margin-top: 3px;",
+			"concat",
+			"span",
+			"mousemoveHandler",
+			"overflow",
+			"			",
+			"UNSOLVED",
+			"                   ",
+			"concat",
+			"js",
+			"controllers",
+			"scripts",
+			"concat",
+			"\"",
+			"\"c",
+			"concat",
+			"styles",
+			"concat",
+			"p",
+			"concat",
+			"coffee",
+			"tasks",
+			"concat",
+			"server",
+			"main.css",
+			"man",
+			"main",
+			"main.css",
+			"'<%=",
+			"concat",
+			"test",
+			"mocha",
+			"compass",
+			"rev",
+			"useminPrepare",
+			"jshint",
+			"\"",
+			"Userpage",
+			"Page",
+			"userlist",
+			"Userpage",
+			"jshint",
+			"coffee",
+			"jshint",
+			"watch",
+			"Uglify",
+			"uglify",
+			"Uglify",
+			"uglify",
+			"Uglify",
+			"concat",
+			".tmp",
+			"jshint",
+			"useminPrepare",
+			".tmp",
+			"usemin",
+			"Usemin",
+			"usemin",
+			"css",
+			"CSS",
+			"css",
+			"CSS",
+			"css",
+			"btn",
+			"it",
+			"dist"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1114,
+								1061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Administrator/Desktop/jsproj1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/360data/重要数据/我的文档/Tencent Files/751143842/FileRecv/3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Administrator/Desktop/example/src/scripts/modules/passengerInfo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/common/lib.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								710,
+								710
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/scripts/module/dialog.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/F/360data/重要数据/我的文档/Tencent Files/751143842/FileRecv/jsproj1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1039,
+								1039
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Administrator/Desktop/54173BLOG 原生javascript效果：选项卡切换/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2345,
+								2345
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Administrator/Desktop/example/src/scripts/pageLogic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/app/bower_components/requirejs/bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/scripts/6cab47e1.main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/G/gyfworkplace/Nodestudy/thoughtworks/dist/styles/0a7c85ff.main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4477,
+								4477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 52266.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/G/gyfworkplace/Nodestudy/QNR-play/letgo.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"project": "letgo.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
